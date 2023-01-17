@@ -1,0 +1,15 @@
+variable "vpd_id" {
+  type = string
+}
+
+variable "subnet_cidr_block" {
+  type = string
+}
+
+variable "subnet_name" {
+  type = string
+}
+
+variable "az" {
+  type = string
+}
